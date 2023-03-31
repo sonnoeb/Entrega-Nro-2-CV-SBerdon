@@ -1,0 +1,266 @@
+/* fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+@import url("https://ar.maisfontes.com/");
+*{
+	font-family:"Titillium Web";
+	margin: 0;
+	padding: 0;	
+}
+html{
+	scroll-behavior: smooth;	
+}
+/*SECCION INICIO*/
+
+section id{
+	scroll-margin-top: 70px;
+}
+	
+header nav{
+	
+	position: fixed;
+	left:0;
+	top:0;
+	right:0;
+	
+	
+	 background-color: #C70039;
+	
+	 
+	 text-transform: uppercase;
+	 font-family: "Helvetica", sans-serif;
+	 border-radius: 80px;
+
+}	
+header nav ul{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	
+}
+header nav ul li{
+	display: inline-block;
+}
+ header nav ul li a{
+	 display:block;
+	 padding: 0.5rem 1rem;
+	 color:#fff;
+	 text-decoration: none;
+	 
+ }
+ header nav ul li a: hover {
+	 background: #2980b9
+ }
+ 	 
+	 	 
+ 
+.inicio{
+	background: url("./FM/vecindad.jpg");
+	height: 100vh;
+	max-width: 240%;
+	background-size: cover;
+	
+}
+/*centralizado de pantalla*/
+.inicio .contenido-seccion{
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	padding: 0 px;	
+}
+.inicio .contenido-seccion header{
+	padding: 30px;
+}
+/* menu */
+.inicio .contenido-seccion header .nav{
+	position: fixed;
+	margin-left: 60px;
+	background-color: #940253;
+	padding: 15px;
+	border-radius: 10px;
+	text-align: left;
+	z-index: 99;
+	display: none;
+	
+}
+
+.inicio .contenido-seccion header .nav a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.inicio .contenido-seccion header .nav-bar{
+	position: fixed;
+	background-color: #940253;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	line-height: 50px;
+	cursor: pointer;
+	transition: .3s;
+}
+ 
+
+/*deslizamiento de cursor*/
+.inicio .contenido-seccion .info{
+	padding-bottom: 200px;
+}
+/*nombre y apellido del cv*/
+.inicio .contenido-seccion .info h1{
+	font-size: 3rem;
+	letter-spacing: 18x;
+	color: #00CC66 ;
+	style: https://ar.maisfontes.com/
+}
+/*titulo debajo del nombre y apellido*/
+.inicio .contenido-seccion .info h2{
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: -10px;
+	letter-spacing: 2px;
+}
+ 
+	
+/*foto del cv*/
+.inicio .contenido-seccion .foto{
+	position: relative;
+}
+
+/*presentacion foto de cv*/
+.inicio .contenido-seccion .foto img{
+	max-width: 500px;
+	border-radius: 70%;
+	border: 5px solid #940253;
+	position: absolute;
+	left: 50%;
+	top: -100px;
+	transform: translateX(-50%); 
+}
+/*estilos generales*/
+.titulo-seccion{
+	font-family: "Yellowtail";
+	font-size: 1.5rem;
+}
+/*cuadro SECCION quien soy*/
+.sobremi{
+	background-color: #40CFFF;
+	padding: 140px 0 100px 0;
+	text-align: center;
+}
+.sobremi .contenido-seccion{
+	max-width: 1000px;
+	margin: auto;
+	padding: 0 10px;
+}
+.sobremi .contenido-seccion h3{
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.sobremi .contenido-seccion .especial h4{
+	color: #940253;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.sobremi .contenido-seccion .fila .col{
+	width:80%;
+	margin: auto;
+	margin-top: 20px;
+	
+}
+
+/*estilos generales*/
+.titulo-seccion{
+	font-family: "Yellowtail";
+	font-size: 1.5rem;
+}
+
+.sobremi .contenido-seccion p{
+	max-width: 700px;
+	margin: auto;
+	color: #666;
+}
+.sobremi .contenido-seccion .fila{
+	display: flex;
+	margin-top: 1px;
+	justify-content: space-between;
+}
+
+.sobremi .contenido-seccion .fila .col i{
+	color: #940253;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #940253;
+	line-height: 30px;
+    border-radius: 20%;	
+}
+.sobremi .contenido-seccion .fila .col span{
+	display: block;
+	font-weight: bold;
+	margin: 8px 0;
+}
+/* cuadro SECCION FILMOGRAFIA*/
+. especial .filmografía{
+    background: url("./FM/fm.png");
+	height: 80vh;
+	max-width: 100%;
+	background-size: cover;
+
+	
+}
+/* cuadro SECCION PREMIOS y NOMINACIONES*/
+ .premios y nominaciones table, th, td{	 
+	border: 5px solid black;
+	background: #AED6F1;
+	background-color: gray;
+	padding: 30px 30px 30px 30px;
+	color: black;
+	text-align: center;
+	 
+ }
+
+/* cuadro SECCION CONTACTO*/
+.contacto{
+	background-color: violet;
+	padding: 200px 0 200px 0;
+	color: #e6e6e6;
+	text-align: center;
+}
+.contacto .contenido-contacto{
+	max-width: 1000px;
+	margin: auto;
+	padding: 0 30px;
+	text-align: center;
+	
+background: url("./FM/florindavisitame.jpg");
+	height: 90vh;
+	max-width: 100%;
+	background-size: cover;
+
+}
+.contacto .contenido-contacto h1{
+	text-transform: uppercase;
+	font-size: 1000px;
+	color: #C70039;
+}
+.contacto .contenido-contacto h2{
+	font-size: 45px;
+	color: #C70039;
+}
+.contacto .contenido-contacto .fila{
+	display: flex;
+	justify-content: space-around;
+}
+.contacto .contenido-contacto .fila .col{
+	margin-top: 50px;
+	justify-content: space-around;
+}
+.contacto .contenido-contacto .fila .col h2{
+	color: #C70039
+
+}
+ 
+	
